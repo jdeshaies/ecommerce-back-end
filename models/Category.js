@@ -10,12 +10,12 @@ Category.init(
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true,
-      allowNull: false
+      allowNull: false,
     },
     category_name: {
       type: DataTypes.STRING,
-      allowNull: false
-    }
+      allowNull: false,
+    },
   },
   {
     sequelize,
@@ -23,7 +23,7 @@ Category.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'category',
-  }
+  },
 );
 
 module.exports = Category;
