@@ -2,8 +2,7 @@
 
 ## Description
 
-ADD DESCRIPTION
-
+The purpose of this project is to give a manager of an online retailer the ability to use back-end technology to manage their inventory. This application utilizes MySQL to maintain the inventory of items the retailer has. To interact with the database, Express.js and Sequelize are used. To update the data, this application uses API routes POST, GET, PUT, and DELETE in order to create, read, update, and delete items in the inventory.
 
 ## Table of Contents
 - [Installation](#installation)
